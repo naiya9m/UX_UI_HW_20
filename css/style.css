@@ -1,0 +1,100 @@
+body {
+    background-color: #E2CDC5;
+}
+
+.navigation {}
+
+.inline-block {
+    display: inline-block;
+}
+
+.logo {
+    width: 23%;
+    text-align: center;
+    padding: 1%;
+    font-size: 25px;
+}
+
+nav {
+    width: 70%;
+    padding: 1%;
+    font-size: 20px;
+    color: #8D8D8D;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav>ul {
+    width: 50%;
+    margin-left: auto;
+}
+
+nav li {
+    padding: 0 25px 0 25px;
+}
+
+.active {
+    font-weight: bold;
+    border-bottom: 2px solid #000000;
+    color: #000000;
+}
+
+.heroImg {
+    height: 900px;
+    padding: 25px;
+}
+
+.content {
+    width: 900px;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.column1 {
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+
+
+
+.highlight {
+    color: #C23500;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 45%;
+}
+
+.thumbnails {
+    align-items: center;
+}
+
+.thumbnails>li {
+    margin: 25px;
+}
+
+.thumbnails>li>img {
+    width: 200px;
+}
+
+.resume {
+    background-color: #DD9B83;
+}
+
+.resume>a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.avatar {
+    display: block;
+    border-radius: 200px;
+    box-sizing: border-box;
+    border: 20px solid rgba(221, 155, 131, 0.15);
+    width: 300px;
+    height: 300px;
+}
